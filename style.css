@@ -58,7 +58,12 @@
 }
 
 @media (max-width:768px) {
+    .ready_txt {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
 
+    }
 
     .display {
         display: none;

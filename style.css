@@ -64,7 +64,7 @@
 
 
 
-@media (max-width:768px) {
+@media (min-width:577px) and (max-width:769px) {
     .ready_txt {
         text-align: center;
         margin: 0 auto;
@@ -78,10 +78,8 @@
 
 }
 
-@media screen (max-width:768px) {
-    .ready_txt {
-        text-align: center;
-    }
+@media (max-width:768px) {
+
 
     .display {}
 

@@ -38,6 +38,11 @@
     display: block;
 }
 
+.footer_height {
+    height: 500px;
+    width: 75%;
+}
+
 @media (max-width:576px) {
     .ready_txt {
         text-align: center;
@@ -52,7 +57,7 @@
 
 }
 
-@media (max-width:992px) {
+@media (max-width:768px) {
 
 
     .display {

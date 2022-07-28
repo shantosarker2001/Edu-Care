@@ -3,8 +3,60 @@
     padding: 0;
 }
 
-.carousel-item img {
+.carousel-item>img {
     width: 100vh;
     height: 80vh;
     object-fit: cover;
+    filter: brightness(50%);
+}
+
+.card-title img {
+    width: 4rem;
+    height: 4rem;
+    display: inline;
+}
+
+.carousel-control-next-icon {
+    padding: 2rem;
+    display: block;
+}
+
+.carousel-control-prev-icon {
+    padding: 2rem;
+    display: block;
+    margin-left: -0.8rem;
+}
+
+.carousel-control-next-icon {
+    padding: 2rem;
+    display: block;
+    margin-right: -0.8rem;
+}
+
+
+.display {
+    display: block;
+}
+
+@media (max-width:576px) {
+    .ready_txt {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+
+    }
+
+    .display {
+        display: none;
+    }
+
+}
+
+@media (max-width:992px) {
+
+
+    .display {
+        display: none;
+    }
+
 }
